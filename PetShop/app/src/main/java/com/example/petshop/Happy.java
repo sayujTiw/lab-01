@@ -8,6 +8,8 @@ public class Happy extends Mood{
     public Happy(Date moodDate) {
         super(moodDate);
     }
+    
+    @Override
     public String speak() {
         return "smile";
     }
