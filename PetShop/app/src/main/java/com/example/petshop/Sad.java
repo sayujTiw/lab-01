@@ -9,6 +9,8 @@ public class Sad extends Mood{
     public Sad(Date moodDate) {
         super(moodDate);
     }
+
+    @Override
     public String speak() {
         return "frown";
     }
