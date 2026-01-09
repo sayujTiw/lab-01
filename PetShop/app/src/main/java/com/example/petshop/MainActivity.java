@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         Cat cat = new Cat("Lucy");
         Dog dog = new Dog("Snoopy");
+        Scorpion scorpion = new Scorpion("Scorponok");
 
 
         Happy happy = new Happy();
@@ -39,11 +40,12 @@ public class MainActivity extends AppCompatActivity {
 
         petList.add(cat);
         petList.add(dog);
-
+        petList.add(scorpion);
 
         ArrayList<Pettable> pettablePets = new ArrayList<Pettable>();
         pettablePets.add(cat);
         pettablePets.add(dog);
+        pettablePets.add(scorpion); // This should produce an error
 
     }
 
