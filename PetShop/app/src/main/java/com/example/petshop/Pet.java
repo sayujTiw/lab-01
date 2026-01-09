@@ -9,7 +9,7 @@ public abstract class Pet {
 
     public Pet(String name) {
         this.name = name;
-        this.birthDate = new Date()
+        this.birthDate = new Date();
     }
 
     public Pet(String name, Date birthDate) {
