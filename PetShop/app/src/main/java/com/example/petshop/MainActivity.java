@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Pettable> pettablePets = new ArrayList<Pettable>();
         pettablePets.add(cat);
         pettablePets.add(dog);
-        pettablePets.add(scorpion); // This should produce an error
+        // pettablePets.add(scorpion); // This should produce an error
 
     }
 
